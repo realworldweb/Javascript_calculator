@@ -1,0 +1,69 @@
+<!DOCYTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/spacelab/bootstrap.min.css" integrity="sha384-sIQOcNYer0kt7oTyFe/YrGzKMFP/qxsJbXTxq0/uiZQgpwXwEu41sVz2M61lWbai" crossorigin="anonymous">
+
+
+<title>Javascript Calculator</title>
+</head>
+<body>
+<div class="container bg-primary">
+<div class="container calc bg-secondary pt-2" id="calcBody">
+<div class="container calc__stage bg-white mb-3">
+<p class="clearfix w-100 text-left m-0 border-bottom border-primary"><span class="float-right">:Input</span><span class="calc_input float-left"></span></p>
+<p class="w-100 clearfix  mb-1"><span class="calc_output float-right"></span><span class="float-left">Ans:</span></p>
+</div>
+<div class="d-flex">
+<div class="calc_numpad col align-self-start mr-3">
+
+<div class="row mb-2">
+<button type="button" class="btn btn-primary col" value="1">1</button>
+<button type="button" class="btn btn-primary col mx-1" value="2">2</button>
+<button type="button" class="btn btn-primary col" value="3">3</button>
+<button type="button" class="btn btn-primary col ml-1" value="4">4</button>
+</div>
+<div class="row mb-2">
+<button type="button" class="btn btn-primary col" value="5">5</button>
+<button type="button" class="btn btn-primary col mx-1" value="6">6</button>
+<button type="button" class="btn btn-primary col" value="7">7</button>
+<button type="button" class="btn btn-primary col ml-1" value="8">8</button>
+</div>
+<div class="row mb-2">
+
+<button type="button" class="btn btn-primary col" value="9">9</button>
+<button type="button" class="btn btn-primary col mx-1" value="0">0</button>
+<button type="button" class="btn btn-danger col" value="back">back</button>
+</div>
+<div class="row mb-2">
+<button type="button" class="btn btn-primary col mb-2" value="-"><i class="fas fa-minus" value="-"></i><br>neg</button>
+<button type="button" class="btn btn-primary col mb-2 ml-2" value="."><span style="font-size: 2rem; line-height: .5" value=".">.</span><br>dec</button>
+
+</div>
+</div>
+<div class="calc_operaters col align-self-end">
+<div class="row mb-2 clac_errors">
+
+</div>
+<div class="row mb-2">
+<button type="button" class="btn btn-primary col font-weight-bold"  value="+"><i class="fas fa-plus" value="+"></i></button>
+<button type="button" class="btn btn-primary col ml-2" value="-"><i class="fas fa-minus" value="-"></i></button>
+</div>
+<div class="row mb-2">
+<button type="button" class="btn btn-primary col" value="*"><i class="fas fa-times" value="*"></i></button>
+<button type="button" class="btn btn-primary col ml-2" value="/"><i class="fas fa-divide" value="/"></i></button>
+</div>
+<div class="row mb-2">
+<button type="button" class="btn btn-danger col ml-2" value="clrall">Clr All</button>
+<button type="button" class="btn btn-success col mx-2" value="="><i class="fas fa-equals" value="="></i></button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js" integrity="sha384-3Nqiqht3ZZEO8FKj7GR1upiI385J92VwWNLj+FqHxtLYxd9l+WYpeqSOrLh0T12c" crossorigin="anonymous"></script>
+<script src="./scripts/app.js"></script>
+</body>
+</html>
